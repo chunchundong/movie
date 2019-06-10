@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/serach/serach",
+    "pages/about/about",
+    "pages/detail/detail",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "推荐电影",
+      "iconPath": "pages/image/index.png",
+      "selectedIconPath": "pages/image/indexSelect.png"
+    },
+    {
+      "pagePath": "pages/serach/serach",
+      "text": "搜索电影",
+      "iconPath": "pages/image/search.png",
+      "selectedIconPath": "pages/image/searchSelect.png"
+    },
+    {
+      "pagePath": "pages/about/about",
+      "text": "关于我",
+      "iconPath": "pages/image/about.png",
+      "selectedIconPath": "pages/image/aboutSelect.png"
+    }]
+  }
+}

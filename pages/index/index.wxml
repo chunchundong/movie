@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<scroll-view>
+
+  <navigator wx:for="{{movies}}" wx:key="this" url='../detail/detail?id={{item.id}}'> 
+      <view class='movieLists' bindtap='showDetail'>
+
+        <view class='img'>
+          <image src='{{item.images.large}}'></image>
+        </view>
+        <view class='content'>
+          <text class='title'>{{item.title}}</text>
+          <text class='date'>上映时间: {{item.year}}</text>
+          <text class='name'>上映地点: {{item.countries}}</text>
+        </view>
+        <view class='score'>
+          <text>{{item.rating.average}}</text>
+        </view>
+
+      </view> 
+  </navigator>
+  
+
+</scroll-view>
